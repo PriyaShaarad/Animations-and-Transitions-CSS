@@ -21,7 +21,6 @@
 }
 
 h2{
-    margin-top:30px;
     text-align: center;
     font-size:35px;
 }
@@ -35,6 +34,30 @@ a{
     font-size:25px;
     text-decoration: none;
     color:black;}
+
+.box{
+   background-color:crimson;
+   height:30px;
+   width:30px;
+   border-radius:50%;
+   animation-name:box-animation;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+ }   
+
+ @keyframes box-animation{
+     0%{
+         transform: translate(200px,350px);
+     }
+
+     30%{
+        transform: translate(450px,100px);
+    }
+
+    60%{
+        transform: translate(650px,350px);
+    }
+ }
 
 .box1{
     display: inline-block;
@@ -68,6 +91,23 @@ a{
     transform:translate(100px);
     transition-duration: 2s;
 }
+
+.box21{
+    display: inline-block;
+    grid-template-columns: repeat(4,25fr);
+    margin-left:108px;
+    margin-top:30px;
+    background-color:cornflowerblue;
+    height:100px;
+    width:15%;
+    border-radius:20px;
+}
+
+.box21:hover{
+    transform:skew(-25deg,-25deg);
+    transition-duration: 2s;
+}
+
 
 .box3{
     display: inline-block;
