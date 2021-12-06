@@ -64,7 +64,7 @@ a{
 }
 
 .box2:hover{
-    transform:skew(-15deg,-15deg);
+    transform:translate(100px);
     transition-duration: 2s;
 }
 
@@ -112,7 +112,7 @@ a{
 }
 
 .box4:hover{
-   transform:scaleX(2);
+   transform:translate(-100px);
    transition-duration: 2s;
 }
 
