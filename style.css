@@ -218,7 +218,7 @@ a:hover{
 }
 
 .box8:hover{
-   transform:rotate(90deg);
+   transform:rotate(360deg);
    transition-duration: 2s;
 }
 
